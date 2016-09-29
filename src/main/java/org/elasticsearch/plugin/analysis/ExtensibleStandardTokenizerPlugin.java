@@ -2,9 +2,9 @@ package org.elasticsearch.plugin.analysis;
 
 import org.elasticsearch.index.analysis.AnalysisModule;
 import org.elasticsearch.index.analysis.ExtensibleStandardTokenizerFactory;
-import org.elasticsearch.plugins.AbstractPlugin;
+import org.elasticsearch.plugins.Plugin;
 
-public class ExtensibleStandardTokenizerPlugin extends AbstractPlugin {
+public class ExtensibleStandardTokenizerPlugin extends Plugin {
 
   @Override
   public String name() {
